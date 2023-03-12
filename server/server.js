@@ -9,7 +9,7 @@ mongoose
 const { Socket } = require("socket.io");
 const io = require("socket.io")(3001, {
   cors: {
-    origin: "http://localhost:5173",
+    origin: "https://docsy-web.netlify.app/documents",
     methods: ["GET", "POST"],
   },
 });
